@@ -103,11 +103,12 @@ angular.module('starter.services', [])
 
      // Display the initial list of folks who are being tracked
      socket.on('folksOnline', function (message) {
+       console.log('received folks online');
        console.log(message);
-       var trackedpeople = [];
+      var trackedpeople = {};
        var folksOnline = message.folksOnline;
        for(var propName in folksOnline){
-         trackedpeople.push({name: folksOnline[propName].name, coordinates: folksOnline[propName].coordinates});
+         trackedpeople[folksOnline[propName].name] = {coordinates: folksOnline[propName].coordinates};
        }
        console.log(trackedpeople);
        wireupCallBacks(socket, callbacks);

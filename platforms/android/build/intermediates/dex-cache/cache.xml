@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/nraehssharma/Documents/repos/android-gps/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="bf071057bdcad335a42d4e52adbbf66210581e2d">
+        <dex dex="/Users/nraehssharma/Documents/repos/android-gps/platforms/android/build/intermediates/pre-dexed/debug/classes-16050f2ef883a6d042f43fe156a595a369496cf7.jar" />
+    </item>
+    <item
+        jar="/Users/nraehssharma/Documents/android/test/helloworld/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="7355fc3697a6456b90a8d07cbd8d146fc1749fa1">
+        <dex dex="/Users/nraehssharma/Documents/android/test/helloworld/platforms/android/build/intermediates/pre-dexed/debug/classes-a817164b4b37efa410657b62108e2a4b499b739b.jar" />
+    </item>
+
+</items>
