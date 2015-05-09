@@ -84,7 +84,7 @@ module.exports = function (grunt) {
     // The actual grunt server settings
     connect: {
       options: {
-        port: 9000,
+        port: 8102,
         // Change this to '0.0.0.0' to access the server from outside.
         hostname: 'localhost'
       },
@@ -326,12 +326,15 @@ module.exports = function (grunt) {
         frameworks: ['mocha', 'chai'],
         files: [
           '<%= yeoman.app %>/bower_components/angular/angular.js',
+          '<%= yeoman.app %>/bower_components/angular-google-maps/dist/angular-google-maps.js',
+          '<%= yeoman.app %>/bower_components/lodash/dist/lodash.js',
           '<%= yeoman.app %>/bower_components/angular-mocks/angular-mocks.js',
           '<%= yeoman.app %>/bower_components/angular-animate/angular-animate.js',
           '<%= yeoman.app %>/bower_components/angular-sanitize/angular-sanitize.js',
           '<%= yeoman.app %>/bower_components/angular-ui-router/release/angular-ui-router.js',
           '<%= yeoman.app %>/bower_components/ionic/release/js/ionic.js',
           '<%= yeoman.app %>/bower_components/ionic/release/js/ionic-angular.js',
+          '<%= yeoman.app %>/bower_components/socket.io-client/dist/socket.io.js',
           '<%= yeoman.app %>/<%= yeoman.scripts %>/**/*.js',
           '<%= yeoman.test %>/mock/**/*.js',
           '<%= yeoman.test %>/spec/**/*.js'
